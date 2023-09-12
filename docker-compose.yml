@@ -24,7 +24,7 @@ services:
     devices:
       - /dev/net/tun
     volumes:
-      - $PWD/:/root/Dockerdata/
+      - /root/Dockerdata/
     environment:
       - myst=/opt/myst/myst
       - PYTHONUNBUFFERED=1
